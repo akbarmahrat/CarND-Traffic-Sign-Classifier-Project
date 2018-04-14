@@ -63,14 +63,14 @@ Here are my final training parameters:
 * Learning rate = 0.001
 
 My results were below after avlidation and training the model:
-* Validation Accuracy = 93.1%
-* Testing Accuracy = 91.7%
+* Validation Accuracy = 91.5%
+* Testing Accuracy = 90.8%
 
 
 #### Solution Approach
 
 I used the LeNet architecture as taught in the classroom. Initially I got accuracy of 80% in test so added a additional convolutional layer with learning rate 0.01 which improvised the accuracy about 90%. For further improvisation I tried 30 Epochs but I observed there was not much change after 12th epoch but decreased slightly. 
-As I am testing on my local machine So I sticked it to 12 Epochs with learning rate 0.001 and got 91% accuracy in testing. Although it took lots of time to complete in my local machine so I will try to run it later on AWS.
+As I am testing on my local machine So I sticked it to 12 Epochs with learning rate 0.001 and got 90% accuracy in testing. Although it took lots of time to complete in my local machine so I will try to run it later on AWS.
 
 
 ### Test on new images
@@ -81,7 +81,7 @@ I used google images and wikipedia page for Germany traffic signs to get new ima
 
 #### Performance on New Images
 
-The accuracy with new traffic signs downloaded from internet was 84.6%, while it was 94% on
+The accuracy with new traffic signs downloaded from internet was 84.6%, while it was 90% on
 the test set. clearly its underfitting because of low image quality. I will try few more techniques to improvise the quality of images.
 
 #### Softmax Probabilities
