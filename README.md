@@ -5,7 +5,7 @@
 ### Solution file attached 
 /Traffic_Sign_Classifier.ipynb
 
-### Steps followed
+### Below Steps are followed
 * Load the data set
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
